@@ -11,6 +11,11 @@ Flask-Rauth is a fork of Armin Ronacher's `Flask-OAuth`__.
 
 __ https://github.com/mitsuhiko/flask-oauth
 
+This fork comments out the content method in 
+RauthResponse to get rid of the error:
+"AttributeError: 'function' object has no attribute 'get'"
+See: https://github.com/joelverhagen/flask-rauth/issues/7
+
 Documentation
 ~~~~~~~~~~~~~
 
